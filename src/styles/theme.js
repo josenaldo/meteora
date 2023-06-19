@@ -6,7 +6,7 @@ import components from "./components";
 
 const baseTheme = {
   palette,
-  // components,
+  components,
 };
 
 const extendTheme = (theme) => {

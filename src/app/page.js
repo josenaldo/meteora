@@ -1,6 +1,5 @@
-"use client";
-import { Button, Grid, Stack } from "@mui/material";
-import "./globals.css";
+'use client'
+import { Button, Grid, Stack } from '@mui/material'
 
 export default function Home() {
   return (
@@ -21,5 +20,5 @@ export default function Home() {
         <Button variant="outlined">Outlined</Button>
       </Stack>
     </Grid>
-  );
+  )
 }
