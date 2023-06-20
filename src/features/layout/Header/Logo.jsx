@@ -1,6 +1,7 @@
 'use client'
 import { Box } from '@mui/material'
 import Image from 'next/image'
+
 import logoDesktop from '@/assets/images/logo-desktop.png'
 import logoMobile from '@/assets/images/logo-mobile.png'
 import logoTablet from '@/assets/images/logo-tablet.png'

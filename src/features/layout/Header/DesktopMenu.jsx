@@ -1,12 +1,13 @@
 'use client'
 import { Box } from '@mui/material'
+
 import { Link } from '@/features/ui'
 
 export default function DesktopMenu() {
   return (
     <Box
       sx={{
-        display: { xs: 'none', sm: 'flex' },
+        display: 'flex',
         justifyContent: 'space-between',
         alignItems: 'center',
         gap: {

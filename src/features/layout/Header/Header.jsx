@@ -1,7 +1,13 @@
 'use client'
-import { DesktopMenu, Logo, MobileMenu, SearchBox } from '@/features/layout'
-import { AppBar, Box } from '@mui/material'
+
 import React from 'react'
+
+import { AppBar, Box } from '@mui/material'
+
+import DesktopMenu from './DesktopMenu'
+import Logo from './Logo'
+import MobileMenu from './MobileMenu'
+import SearchBox from './SearchBox'
 
 export default function Header() {
   const menuAnchor = React.useRef(null)
@@ -29,7 +35,9 @@ export default function Header() {
           }}
         >
           <Logo />
-          <DesktopMenu />
+          <Box sx={{ display: { xs: 'none', sm: 'flex' } }}>
+            <DesktopMenu />
+          </Box>
         </Box>
         <Box sx={{ display: { xs: 'none', sm: 'flex' } }}>
           <SearchBox />
@@ -45,6 +53,8 @@ export default function Header() {
       <Box
         sx={{
           display: { xs: 'flex', sm: 'none' },
+          flexDirection: 'row',
+          justifyContent: 'center',
           padding: 3,
         }}
       >
