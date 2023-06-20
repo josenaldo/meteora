@@ -8,10 +8,29 @@ import {
 const palette = {
   mode: 'light',
   primary: {
-    main: primaryColor[500],
+    main: '#DAFF01',
   },
   secondary: {
-    main: secondaryColor[500],
+    main: '#9353FF',
+  },
+  white: {
+    main: '#FFFFFF',
+  },
+  surfice: {
+    main: '#cccccc',
+  },
+  background: {
+    default: '#FFFFFF',
+    paper: '#CCCCCC',
+  },
+  common: {
+    black: '#000000',
+    white: '#FFFFFF',
+  },
+  banners: {
+    banner1: '#EE6471',
+    banner2: '#F87F46',
+    banner3: '#9353FF',
   },
 }
 

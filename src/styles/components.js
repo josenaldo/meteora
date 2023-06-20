@@ -1,13 +1,28 @@
-"use client";
-import { primaryColor } from "./palette";
+'use client'
+import { primaryColor } from './palette'
 const components = {
+  MuiTextField: {
+    styleOverrides: {
+      root: {
+        borderRadius: '0',
+      },
+    },
+  },
+  MuiButton: {
+    styleOverrides: {
+      root: {
+        borderRadius: '0',
+        textTransform: 'none',
+      },
+    },
+  },
   MuiCard: {
     variants: [
       {
-        props: { variant: "comment" },
+        props: { variant: 'comment' },
         style: {
-          padding: "0.5rem",
-          borderRadius: "1rem",
+          padding: '0.5rem',
+          borderRadius: '1rem',
         },
       },
     ],
@@ -15,46 +30,46 @@ const components = {
   MuiCardContent: {
     styleOverrides: {
       root: {
-        padding: "1rem",
+        padding: '1rem',
       },
     },
   },
   MuiCardActions: {
     styleOverrides: {
       root: {
-        padding: "1rem",
+        padding: '1rem',
       },
     },
   },
   MuiLink: {
     variants: [
       {
-        props: { variant: "nav" },
+        props: { variant: 'nav' },
         style: {
-          color: "inherit",
-          textDecoration: "none",
+          color: 'inherit',
+          textDecoration: 'none',
         },
       },
       {
-        props: { variant: "plain" },
+        props: { variant: 'plain' },
         style: {
-          color: "inherit",
-          textDecoration: "none",
+          color: 'inherit',
+          textDecoration: 'none',
         },
       },
       {
-        props: { variant: "cardTitle" },
+        props: { variant: 'cardTitle' },
         style: {
           color: primaryColor[200],
-          textDecoration: "none",
+          textDecoration: 'none',
           border: (theme) => `1px solid ${theme.palette.primary.main}`,
-          "&:hover": {
+          '&:hover': {
             color: primaryColor[400],
           },
         },
       },
     ],
   },
-};
+}
 
-export default components;
+export default components

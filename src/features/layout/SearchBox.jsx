@@ -1,0 +1,31 @@
+'use client'
+
+import { Box, Button, TextField } from '@mui/material'
+import { styled } from '@mui/material/styles'
+
+const SearchTextField = styled(TextField)({
+  '& .MuiInputBase-root': {
+    height: '38px !important',
+  },
+})
+
+export default function SearchBox() {
+  return (
+    <Box
+      sx={{
+        display: 'flex',
+        flexDirection: 'row',
+        gap: 2,
+      }}
+    >
+      <SearchTextField
+        variant="outlined"
+        placeholder="Digite o produto"
+        sx={{ backgroundColor: 'common.white', color: 'common.black' }}
+      />
+      <Button variant="outlined" sx={{ height: '38px' }} color="white">
+        Search
+      </Button>
+    </Box>
+  )
+}
