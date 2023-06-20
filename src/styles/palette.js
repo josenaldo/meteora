@@ -19,6 +19,9 @@ const palette = {
   black: {
     main: '#000000',
   },
+  menu: {
+    main: '#343A40',
+  },
   surfice: {
     main: '#cccccc',
   },
