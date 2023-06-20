@@ -1,11 +1,6 @@
 'use client'
 import { Box } from '@mui/material'
-import { styled } from '@mui/material/styles'
 import { Link } from '@/features/ui'
-
-const MenuLink = styled(Link)(({ theme }) => ({
-  color: theme.palette.common.white,
-}))
 
 export default function Menu() {
   return (
@@ -14,7 +9,11 @@ export default function Menu() {
         display: 'flex',
         justifyContent: 'space-between',
         alignItems: 'center',
-        gap: 3,
+        gap: {
+          xs: 2,
+          sm: 2.5,
+          lg: 5,
+        },
       }}
     >
       <MenuLink href="/">Home</MenuLink>
@@ -22,5 +21,23 @@ export default function Menu() {
       <MenuLink href="/novidades">Novidades</MenuLink>
       <MenuLink href="/promocoes">Promoções</MenuLink>
     </Box>
+  )
+}
+
+function MenuLink({ href, children }) {
+  return (
+    <Link
+      href={href}
+      sx={{
+        color: 'common.white',
+        fontSize: {
+          xs: '0.6rem',
+          sm: '0.813rem',
+          md: '1rem',
+        },
+      }}
+    >
+      {children}
+    </Link>
   )
 }

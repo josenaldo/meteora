@@ -6,6 +6,7 @@ export default function Header() {
   return (
     <Box component="header">
       <AppBar
+        elevation={0}
         position="static"
         sx={{
           backgroundColor: 'common.black',

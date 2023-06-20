@@ -1,5 +1,5 @@
 'use client'
-import { Button, Grid, Stack } from '@mui/material'
+import { Box, Button, Grid, Stack } from '@mui/material'
 
 export default function Home() {
   return (
@@ -10,9 +10,8 @@ export default function Home() {
       justifyContent="center"
       direction="column"
     >
-      <h1 className="text-blue-500">Using Material UI with Next.js 13</h1>
-      <h4 className="text-red-500">(with Tailwind CSS)</h4>
       <Stack direction="row" columnGap={1}>
+        <Box>CArroussel</Box>
         <Button variant="text" className="text-red-500">
           Text
         </Button>

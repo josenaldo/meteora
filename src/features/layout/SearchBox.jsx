@@ -21,7 +21,16 @@ export default function SearchBox() {
       <SearchTextField
         variant="outlined"
         placeholder="Digite o produto"
-        sx={{ backgroundColor: 'common.white', color: 'common.black' }}
+        sx={{
+          backgroundColor: 'common.white',
+          color: 'common.black',
+
+          width: {
+            xs: '100%',
+            sm: '145px',
+            lg: '170px',
+          },
+        }}
       />
       <Button variant="outlined" sx={{ height: '38px' }} color="white">
         Search

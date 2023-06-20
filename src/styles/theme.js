@@ -1,46 +1,55 @@
-"use client";
-import { createTheme } from "@mui/material/styles";
+'use client'
+import { createTheme } from '@mui/material/styles'
 
-import palette from "./palette";
-import components from "./components";
+import palette from './palette'
+import components from './components'
 
 const baseTheme = {
   palette,
   components,
-};
+  breakpoints: {
+    values: {
+      xs: 0,
+      sm: 768,
+      md: 900,
+      lg: 1440,
+      xl: 1536,
+    },
+  },
+}
 
 const extendTheme = (theme) => {
   theme.typography.h1 = {
-    fontSize: "clamp(2.40rem, 5vw, 3rem)",
+    fontSize: 'clamp(2.40rem, 5vw, 3rem)',
     fontWeight: 700,
-  };
+  }
 
   theme.typography.h2 = {
-    fontSize: "clamp(1.80rem, 4.5vw, 2.40rem)",
+    fontSize: 'clamp(1.80rem, 4.5vw, 2.40rem)',
     fontWeight: 700,
-  };
+  }
 
   theme.typography.h3 = {
-    fontSize: "clamp(1.40rem, 4vw, 1.80rem)",
+    fontSize: 'clamp(1.40rem, 4vw, 1.80rem)',
     fontWeight: 700,
-  };
+  }
 
   theme.typography.h4 = {
-    fontSize: "clamp(1.20rem, 3.5vw, 1.60rem)",
+    fontSize: 'clamp(1.20rem, 3.5vw, 1.60rem)',
     fontWeight: 700,
-  };
+  }
 
   theme.typography.h5 = {
-    fontSize: "clamp(1.00rem, 3vw, 1.40rem)",
+    fontSize: 'clamp(1.00rem, 3vw, 1.40rem)',
     fontWeight: 700,
-  };
+  }
 
   theme.typography.h6 = {
-    fontSize: "clamp(1.00rem, 2.5vw, 1.20rem)",
+    fontSize: 'clamp(1.00rem, 2.5vw, 1.20rem)',
     fontWeight: 500,
-  };
-};
-const theme = createTheme(baseTheme);
-extendTheme(theme);
+  }
+}
+const theme = createTheme(baseTheme)
+extendTheme(theme)
 
-export default theme;
+export default theme
