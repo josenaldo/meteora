@@ -9,7 +9,7 @@ const SearchTextField = styled(TextField)({
   },
 })
 
-export default function SearchBox() {
+export default function SearchBox({ buttonColor = 'white' }) {
   return (
     <Box
       sx={{
@@ -32,7 +32,7 @@ export default function SearchBox() {
           },
         }}
       />
-      <Button variant="outlined" sx={{ height: '38px' }} color="white">
+      <Button variant="outlined" sx={{ height: '38px' }} color={buttonColor}>
         Search
       </Button>
     </Box>

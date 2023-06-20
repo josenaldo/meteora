@@ -5,6 +5,11 @@ const components = {
     styleOverrides: {
       root: {
         borderRadius: '0',
+
+        '& .MuiInputBase-root': {
+          borderRadius: '0',
+          border: '1px solid #000000',
+        },
       },
     },
   },

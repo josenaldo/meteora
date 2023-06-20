@@ -1,6 +1,12 @@
 'use client'
 
-import { Banner, Categorias, Facilidades, Produtos } from '@/features/home'
+import {
+  Banner,
+  Categorias,
+  Facilidades,
+  Newsletter,
+  Produtos,
+} from '@/features/home'
 import { Box, Button, Grid, Stack } from '@mui/material'
 
 export default function Home() {
@@ -10,6 +16,7 @@ export default function Home() {
       <Categorias />
       <Produtos />
       <Facilidades />
+      <Newsletter />
     </Stack>
   )
 }

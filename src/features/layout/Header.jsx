@@ -28,10 +28,18 @@ export default function Header() {
           <Logo />
           <DesktopMenu />
         </Box>
-        <Box>
+        <Box sx={{ display: { xs: 'none', sm: 'flex' } }}>
           <SearchBox />
         </Box>
       </AppBar>
+      <Box
+        sx={{
+          display: { xs: 'flex', sm: 'none' },
+          padding: 3,
+        }}
+      >
+        <SearchBox buttonColor="black" />
+      </Box>
     </Box>
   )
 }

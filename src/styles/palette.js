@@ -16,6 +16,9 @@ const palette = {
   white: {
     main: '#FFFFFF',
   },
+  black: {
+    main: '#000000',
+  },
   surfice: {
     main: '#cccccc',
   },

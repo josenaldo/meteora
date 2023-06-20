@@ -2,20 +2,9 @@
 import { Box } from '@mui/material'
 import { Link } from '@/features/ui'
 
-export default function DesktopMenu() {
+export default function MobileMenu() {
   return (
-    <Box
-      sx={{
-        display: { xs: 'none', sm: 'flex' },
-        justifyContent: 'space-between',
-        alignItems: 'center',
-        gap: {
-          xs: 2,
-          sm: 2.5,
-          lg: 5,
-        },
-      }}
-    >
+    <Box>
       <MenuLink href="/">Home</MenuLink>
       <MenuLink href="/nossas-lojas">Nossas lojas</MenuLink>
       <MenuLink href="/novidades">Novidades</MenuLink>
