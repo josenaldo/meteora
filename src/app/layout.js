@@ -1,14 +1,27 @@
-import { BaseLayout } from '@/features/layout'
+import { MeteoraThemeProvider, Header, Footer } from '@/features/layout'
+import { Inter } from 'next/font/google'
+
+import '@/styles/globals.css'
 
 export const metadata = {
   title: 'Meteora',
   description: 'Peças versáteis e atemporais para o seu dia a dia.',
 }
 
+const mainFont = Inter({
+  subsets: ['latin'],
+})
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <BaseLayout>{children}</BaseLayout>
+      <MeteoraThemeProvider>
+        <body className={mainFont.className} id="__next">
+          <Header />
+          <main>{children}</main>
+          <Footer />
+        </body>
+      </MeteoraThemeProvider>
     </html>
   )
 }
