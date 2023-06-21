@@ -12,40 +12,40 @@ const baseTheme = {
       xs: 0,
       sm: 768,
       md: 900,
-      lg: 1440,
-      xl: 1536,
+      lg: 1200,
+      xl: 1440,
     },
   },
 }
 
 const extendTheme = (theme) => {
   theme.typography.h1 = {
-    fontSize: 'clamp(2.40rem, 5vw, 3rem)',
-    fontWeight: 700,
+    fontSize: 'clamp(32px, 5vw, 48px)',
+    fontWeight: 500,
   }
 
   theme.typography.h2 = {
-    fontSize: 'clamp(1.80rem, 4.5vw, 2.40rem)',
-    fontWeight: 700,
+    fontSize: 'clamp(28px, 4.5vw, 32px)',
+    fontWeight: 500,
   }
 
   theme.typography.h3 = {
-    fontSize: 'clamp(1.40rem, 4vw, 1.80rem)',
-    fontWeight: 700,
+    fontSize: 'clamp(24px, 4vw, 28x)',
+    fontWeight: 500,
   }
 
   theme.typography.h4 = {
-    fontSize: 'clamp(1.20rem, 3.5vw, 1.60rem)',
-    fontWeight: 700,
+    fontSize: 'clamp(20px, 3.5vw, 24px)',
+    fontWeight: 500,
   }
 
   theme.typography.h5 = {
-    fontSize: 'clamp(1.00rem, 3vw, 1.40rem)',
-    fontWeight: 700,
+    fontSize: 'clamp(16px, 3vw, 20px)',
+    fontWeight: 500,
   }
 
   theme.typography.h6 = {
-    fontSize: 'clamp(1.00rem, 2.5vw, 1.20rem)',
+    fontSize: 'clamp(12px, 2.5vw, 16px)',
     fontWeight: 500,
   }
 }

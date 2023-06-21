@@ -211,6 +211,12 @@
       "alt": "bolsas",
       "width": 210,
       "height": 157
+    },
+    "mobile": {
+      "url": "/assets/images/mobile/categoriass/bolsas.png",
+      "alt": "bolsas",
+      "width": 146,
+      "height": 157
     }
   },
   "categorias/calcados.png": {
@@ -224,6 +230,12 @@
       "url": "/assets/images/tablet/categorias/calcados.png",
       "alt": "calcados",
       "width": 211,
+      "height": 157
+    },
+    "mobile": {
+      "url": "/assets/images/mobile/categoriass/calcados.png",
+      "alt": "calcados",
+      "width": 147,
       "height": 157
     }
   },
@@ -239,6 +251,12 @@
       "alt": "calcas",
       "width": 209,
       "height": 157
+    },
+    "mobile": {
+      "url": "/assets/images/mobile/categoriass/calcas.png",
+      "alt": "calcas",
+      "width": 147,
+      "height": 157
     }
   },
   "categorias/camisetas.png": {
@@ -252,6 +270,12 @@
       "url": "/assets/images/tablet/categorias/camisetas.png",
       "alt": "camisetas",
       "width": 209,
+      "height": 157
+    },
+    "mobile": {
+      "url": "/assets/images/mobile/categoriass/camisetas.png",
+      "alt": "camisetas",
+      "width": 146,
       "height": 157
     }
   },
@@ -267,6 +291,12 @@
       "alt": "casacos",
       "width": 209,
       "height": 157
+    },
+    "mobile": {
+      "url": "/assets/images/mobile/categoriass/casacos.png",
+      "alt": "casacos",
+      "width": 147,
+      "height": 157
     }
   },
   "categorias/oculos.png": {
@@ -280,6 +310,12 @@
       "url": "/assets/images/tablet/categorias/oculos.png",
       "alt": "oculos",
       "width": 209,
+      "height": 157
+    },
+    "mobile": {
+      "url": "/assets/images/mobile/categoriass/oculos.png",
+      "alt": "oculos",
+      "width": 147,
       "height": 157
     }
   },
@@ -341,54 +377,6 @@
       "alt": "repeat",
       "width": 72,
       "height": 73
-    }
-  },
-  "categoriass/bolsas.png": {
-    "mobile": {
-      "url": "/assets/images/mobile/categoriass/bolsas.png",
-      "alt": "bolsas",
-      "width": 146,
-      "height": 157
-    }
-  },
-  "categoriass/calcados.png": {
-    "mobile": {
-      "url": "/assets/images/mobile/categoriass/calcados.png",
-      "alt": "calcados",
-      "width": 147,
-      "height": 157
-    }
-  },
-  "categoriass/calcas.png": {
-    "mobile": {
-      "url": "/assets/images/mobile/categoriass/calcas.png",
-      "alt": "calcas",
-      "width": 147,
-      "height": 157
-    }
-  },
-  "categoriass/camisetas.png": {
-    "mobile": {
-      "url": "/assets/images/mobile/categoriass/camisetas.png",
-      "alt": "camisetas",
-      "width": 146,
-      "height": 157
-    }
-  },
-  "categoriass/casacos.png": {
-    "mobile": {
-      "url": "/assets/images/mobile/categoriass/casacos.png",
-      "alt": "casacos",
-      "width": 147,
-      "height": 157
-    }
-  },
-  "categoriass/oculos.png": {
-    "mobile": {
-      "url": "/assets/images/mobile/categoriass/oculos.png",
-      "alt": "oculos",
-      "width": 147,
-      "height": 157
     }
   }
 }
