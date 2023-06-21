@@ -22,12 +22,13 @@ export default function useDevice() {
 
   const keys = Object.keys(matches).reverse()
 
-  const width = keys.reduce((output, key) => {
-    if (matches[key] && !output) {
-      output = devices[key]
-    }
-    return output
-  }, null)
+  const width =
+    keys.reduce((output, key) => {
+      if (matches[key] && !output) {
+        output = devices[key]
+      }
+      return output
+    }, null) || 'mobile'
 
   return width
 }

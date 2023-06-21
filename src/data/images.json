@@ -1,0 +1,394 @@
+{
+  "banner-carousel-1.png": {
+    "desktop": {
+      "url": "/assets/images/desktop/banner-carousel-1.png",
+      "alt": "banner-carousel-1",
+      "width": 1440,
+      "height": 415
+    },
+    "mobile": {
+      "url": "/assets/images/mobile/banner-carousel-1.png",
+      "alt": "banner-carousel-1",
+      "width": 375,
+      "height": 415
+    },
+    "tablet": {
+      "url": "/assets/images/tablet/banner-carousel-1.png",
+      "alt": "banner-carousel-1",
+      "width": 768,
+      "height": 415
+    }
+  },
+  "banner-carousel-2.png": {
+    "desktop": {
+      "url": "/assets/images/desktop/banner-carousel-2.png",
+      "alt": "banner-carousel-2",
+      "width": 1440,
+      "height": 415
+    },
+    "mobile": {
+      "url": "/assets/images/mobile/banner-carousel-2.png",
+      "alt": "banner-carousel-2",
+      "width": 375,
+      "height": 415
+    },
+    "tablet": {
+      "url": "/assets/images/tablet/banner-carousel-2.png",
+      "alt": "banner-carousel-2",
+      "width": 768,
+      "height": 415
+    }
+  },
+  "banner-carousel-3.png": {
+    "desktop": {
+      "url": "/assets/images/desktop/banner-carousel-3.png",
+      "alt": "banner-carousel-3",
+      "width": 1440,
+      "height": 415
+    },
+    "mobile": {
+      "url": "/assets/images/mobile/banner-carousel-3.png",
+      "alt": "banner-carousel-3",
+      "width": 375,
+      "height": 415
+    },
+    "tablet": {
+      "url": "/assets/images/tablet/banner-carousel-3.png",
+      "alt": "banner-carousel-3",
+      "width": 768,
+      "height": 415
+    }
+  },
+  "logo.png": {
+    "desktop": {
+      "url": "/assets/images/desktop/logo.png",
+      "alt": "logo",
+      "width": 133,
+      "height": 32
+    },
+    "mobile": {
+      "url": "/assets/images/mobile/logo.png",
+      "alt": "logo",
+      "width": 126,
+      "height": 18
+    },
+    "tablet": {
+      "url": "/assets/images/tablet/logo.png",
+      "alt": "logo",
+      "width": 100,
+      "height": 24
+    }
+  },
+  "cards/bolsa.png": {
+    "desktop": {
+      "url": "/assets/images/desktop/cards/bolsa.png",
+      "alt": "bolsa",
+      "width": 350,
+      "height": 422
+    },
+    "mobile": {
+      "url": "/assets/images/mobile/cards/bolsa.png",
+      "alt": "bolsa",
+      "width": 323,
+      "height": 422
+    },
+    "tablet": {
+      "url": "/assets/images/tablet/cards/bolsa.png",
+      "alt": "bolsa",
+      "width": 330,
+      "height": 389
+    }
+  },
+  "cards/calca.png": {
+    "desktop": {
+      "url": "/assets/images/desktop/cards/calca.png",
+      "alt": "calca",
+      "width": 350,
+      "height": 422
+    },
+    "mobile": {
+      "url": "/assets/images/mobile/cards/calca.png",
+      "alt": "calca",
+      "width": 323,
+      "height": 389
+    },
+    "tablet": {
+      "url": "/assets/images/tablet/cards/calca.png",
+      "alt": "calca",
+      "width": 330,
+      "height": 389
+    }
+  },
+  "cards/camiseta.png": {
+    "desktop": {
+      "url": "/assets/images/desktop/cards/camiseta.png",
+      "alt": "camiseta",
+      "width": 350,
+      "height": 422
+    },
+    "mobile": {
+      "url": "/assets/images/mobile/cards/camiseta.png",
+      "alt": "camiseta",
+      "width": 323,
+      "height": 402
+    },
+    "tablet": {
+      "url": "/assets/images/tablet/cards/camiseta.png",
+      "alt": "camiseta",
+      "width": 330,
+      "height": 389
+    }
+  },
+  "cards/jaqueta.png": {
+    "desktop": {
+      "url": "/assets/images/desktop/cards/jaqueta.png",
+      "alt": "jaqueta",
+      "width": 350,
+      "height": 422
+    },
+    "mobile": {
+      "url": "/assets/images/mobile/cards/jaqueta.png",
+      "alt": "jaqueta",
+      "width": 323,
+      "height": 422
+    },
+    "tablet": {
+      "url": "/assets/images/tablet/cards/jaqueta.png",
+      "alt": "jaqueta",
+      "width": 330,
+      "height": 389
+    }
+  },
+  "cards/oculos.png": {
+    "desktop": {
+      "url": "/assets/images/desktop/cards/oculos.png",
+      "alt": "oculos",
+      "width": 350,
+      "height": 422
+    },
+    "mobile": {
+      "url": "/assets/images/mobile/cards/oculos.png",
+      "alt": "oculos",
+      "width": 323,
+      "height": 422
+    },
+    "tablet": {
+      "url": "/assets/images/tablet/cards/oculos.png",
+      "alt": "oculos",
+      "width": 330,
+      "height": 389
+    }
+  },
+  "cards/tenis.png": {
+    "desktop": {
+      "url": "/assets/images/desktop/cards/tenis.png",
+      "alt": "tenis",
+      "width": 350,
+      "height": 422
+    },
+    "mobile": {
+      "url": "/assets/images/mobile/cards/tenis.png",
+      "alt": "tenis",
+      "width": 323,
+      "height": 389
+    },
+    "tablet": {
+      "url": "/assets/images/tablet/cards/tenis.png",
+      "alt": "tenis",
+      "width": 330,
+      "height": 389
+    }
+  },
+  "categorias/bolsas.png": {
+    "desktop": {
+      "url": "/assets/images/desktop/categorias/bolsas.png",
+      "alt": "bolsas",
+      "width": 160,
+      "height": 157
+    },
+    "tablet": {
+      "url": "/assets/images/tablet/categorias/bolsas.png",
+      "alt": "bolsas",
+      "width": 210,
+      "height": 157
+    }
+  },
+  "categorias/calcados.png": {
+    "desktop": {
+      "url": "/assets/images/desktop/categorias/calcados.png",
+      "alt": "calcados",
+      "width": 160,
+      "height": 157
+    },
+    "tablet": {
+      "url": "/assets/images/tablet/categorias/calcados.png",
+      "alt": "calcados",
+      "width": 211,
+      "height": 157
+    }
+  },
+  "categorias/calcas.png": {
+    "desktop": {
+      "url": "/assets/images/desktop/categorias/calcas.png",
+      "alt": "calcas",
+      "width": 160,
+      "height": 157
+    },
+    "tablet": {
+      "url": "/assets/images/tablet/categorias/calcas.png",
+      "alt": "calcas",
+      "width": 209,
+      "height": 157
+    }
+  },
+  "categorias/camisetas.png": {
+    "desktop": {
+      "url": "/assets/images/desktop/categorias/camisetas.png",
+      "alt": "camisetas",
+      "width": 160,
+      "height": 157
+    },
+    "tablet": {
+      "url": "/assets/images/tablet/categorias/camisetas.png",
+      "alt": "camisetas",
+      "width": 209,
+      "height": 157
+    }
+  },
+  "categorias/casacos.png": {
+    "desktop": {
+      "url": "/assets/images/desktop/categorias/casacos.png",
+      "alt": "casacos",
+      "width": 160,
+      "height": 157
+    },
+    "tablet": {
+      "url": "/assets/images/tablet/categorias/casacos.png",
+      "alt": "casacos",
+      "width": 209,
+      "height": 157
+    }
+  },
+  "categorias/oculos.png": {
+    "desktop": {
+      "url": "/assets/images/desktop/categorias/oculos.png",
+      "alt": "oculos",
+      "width": 160,
+      "height": 157
+    },
+    "tablet": {
+      "url": "/assets/images/tablet/categorias/oculos.png",
+      "alt": "oculos",
+      "width": 209,
+      "height": 157
+    }
+  },
+  "icones/diamond.png": {
+    "desktop": {
+      "url": "/assets/images/desktop/icones/diamond.png",
+      "alt": "diamond",
+      "width": 72,
+      "height": 73
+    },
+    "mobile": {
+      "url": "/assets/images/mobile/icones/diamond.png",
+      "alt": "diamond",
+      "width": 56,
+      "height": 57
+    },
+    "tablet": {
+      "url": "/assets/images/tablet/icones/diamond.png",
+      "alt": "diamond",
+      "width": 72,
+      "height": 73
+    }
+  },
+  "icones/flower.png": {
+    "desktop": {
+      "url": "/assets/images/desktop/icones/flower.png",
+      "alt": "flower",
+      "width": 72,
+      "height": 73
+    },
+    "mobile": {
+      "url": "/assets/images/mobile/icones/flower.png",
+      "alt": "flower",
+      "width": 56,
+      "height": 57
+    },
+    "tablet": {
+      "url": "/assets/images/tablet/icones/flower.png",
+      "alt": "flower",
+      "width": 72,
+      "height": 73
+    }
+  },
+  "icones/repeat.png": {
+    "desktop": {
+      "url": "/assets/images/desktop/icones/repeat.png",
+      "alt": "repeat",
+      "width": 72,
+      "height": 73
+    },
+    "mobile": {
+      "url": "/assets/images/mobile/icones/repeat.png",
+      "alt": "repeat",
+      "width": 56,
+      "height": 57
+    },
+    "tablet": {
+      "url": "/assets/images/tablet/icones/repeat.png",
+      "alt": "repeat",
+      "width": 72,
+      "height": 73
+    }
+  },
+  "categoriass/bolsas.png": {
+    "mobile": {
+      "url": "/assets/images/mobile/categoriass/bolsas.png",
+      "alt": "bolsas",
+      "width": 146,
+      "height": 157
+    }
+  },
+  "categoriass/calcados.png": {
+    "mobile": {
+      "url": "/assets/images/mobile/categoriass/calcados.png",
+      "alt": "calcados",
+      "width": 147,
+      "height": 157
+    }
+  },
+  "categoriass/calcas.png": {
+    "mobile": {
+      "url": "/assets/images/mobile/categoriass/calcas.png",
+      "alt": "calcas",
+      "width": 147,
+      "height": 157
+    }
+  },
+  "categoriass/camisetas.png": {
+    "mobile": {
+      "url": "/assets/images/mobile/categoriass/camisetas.png",
+      "alt": "camisetas",
+      "width": 146,
+      "height": 157
+    }
+  },
+  "categoriass/casacos.png": {
+    "mobile": {
+      "url": "/assets/images/mobile/categoriass/casacos.png",
+      "alt": "casacos",
+      "width": 147,
+      "height": 157
+    }
+  },
+  "categoriass/oculos.png": {
+    "mobile": {
+      "url": "/assets/images/mobile/categoriass/oculos.png",
+      "alt": "oculos",
+      "width": 147,
+      "height": 157
+    }
+  }
+}

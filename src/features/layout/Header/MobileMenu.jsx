@@ -5,7 +5,7 @@ import { Box, IconButton, Menu, MenuItem as MuiMenuItem } from '@mui/material'
 import MenuIcon from '@mui/icons-material/Menu'
 import ClearIcon from '@mui/icons-material/Clear'
 
-import { Link } from '@/features/ui'
+import Link from 'next/link'
 
 export default function MobileMenu({ target }) {
   const [anchorEl, setAnchorEl] = React.useState(null)

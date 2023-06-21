@@ -11,12 +11,20 @@ import { Box, Button, Grid, Stack } from '@mui/material'
 
 export default function Home() {
   return (
-    <Stack>
+    <Box
+      sx={{
+        display: 'flex',
+        flexDirection: 'column',
+        gap: '0',
+        margin: '0',
+        padding: '0',
+      }}
+    >
       <Banner />
       <Categorias />
       <Produtos />
       <Facilidades />
       <Newsletter />
-    </Stack>
+    </Box>
   )
 }

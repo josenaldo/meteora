@@ -1,14 +1,8 @@
 import { Box } from '@mui/material'
 
+import { ResponsiveImage } from '@/features/responsive'
+import images from '@/data/images.json'
+
 export default function Banner() {
-  return (
-    <Box
-      sx={{
-        height: '300px',
-        backgroundColor: 'secondary.main',
-      }}
-    >
-      <h1>Banner</h1>
-    </Box>
-  )
+  return <ResponsiveImage images={images['banner-carousel-1.png']} fill />
 }
