@@ -6,6 +6,9 @@ import { SectionTitle } from '@/features/ui'
 import { CategoryCard } from '@/features/category'
 
 export default function CategoryList({ categories }) {
+  console.log('categories', categories)
+  if (!categories) return null
+
   return (
     <Container
       maxWidth="lg"

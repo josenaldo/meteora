@@ -1,23 +1,20 @@
 const baseurl = process.env.NEXT_PUBLIC_API_URL
 
 export default async function getCategories() {
-  const url = `${baseurl}/categories`
-  console.log('🟢 URL', url)
+  try {
+    const url = `${baseurl}/categories`
+    // const url = '/api/categories'
 
-  const response = await fetch(url)
-  console.log('🔴 Response', response)
+    const response = await fetch(url)
 
-  if (!response.ok) {
-    console.log('🔴 Response not ok', response)
-    throw new Error(response.statusText)
+    if (!response.ok) {
+      throw new Error(response.statusText)
+    }
+
+    const data = await response.json()
+
+    return data
+  } catch (error) {
+    return { error: error.message || error }
   }
-
-  const data = await response.json()
-  console.log('🟢 Data', data)
-
-  return new Promise((resolve) => {
-    setTimeout(() => {
-      resolve(data)
-    }, 2000)
-  })
 }
