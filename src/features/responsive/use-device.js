@@ -28,7 +28,7 @@ export default function useDevice() {
         output = devices[key]
       }
       return output
-    }, null) || 'mobile'
+    }, null) || 'desktop'
 
   return width
 }

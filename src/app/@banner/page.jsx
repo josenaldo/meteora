@@ -1,4 +1,4 @@
-import { Box } from '@mui/material'
+'use client'
 
 import { ResponsiveImage } from '@/features/responsive'
 import images from '@/data/images.json'
