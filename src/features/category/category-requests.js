@@ -2,6 +2,7 @@ const baseurl = process.env.NEXT_PUBLIC_API_URL
 
 export default async function getCategories() {
   const url = `${baseurl}/categories`
+  console.log('🟢 URL', url)
 
   const response = await fetch(url)
   console.log('🔴 Response', response)
