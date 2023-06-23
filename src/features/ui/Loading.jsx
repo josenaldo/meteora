@@ -7,7 +7,7 @@ import {
   Typography,
 } from '@mui/material'
 
-export default function Loading() {
+export default function Loading({ color = 'secondary' }) {
   return (
     <Box
       sx={{
@@ -19,10 +19,10 @@ export default function Loading() {
         padding: '1rem',
       }}
     >
-      <Typography variant="h6" color="secondary">
+      <Typography variant="h6" color={color}>
         Loading...
       </Typography>
-      <CircularProgress color="secondary" />
+      <CircularProgress color={color} />
     </Box>
   )
 }
