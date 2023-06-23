@@ -7,7 +7,16 @@ import { CategoryCard } from '@/features/category'
 
 export default function CategoryList({ categories }) {
   console.log('categories', categories)
+
   if (!categories) return null
+
+  if (categories.error) {
+    return (
+      <div>
+        <h1>Erro ao carregar as categorias</h1>
+      </div>
+    )
+  }
 
   return (
     <Container
