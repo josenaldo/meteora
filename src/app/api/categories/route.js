@@ -29,5 +29,6 @@ const categorias = [
 ]
 
 export async function GET(request) {
+  console.log('🔵 REQUESTING CATEGORIES', request)
   return NextResponse.json(categorias)
 }
