@@ -25,13 +25,13 @@ const palette = {
   surfice: {
     main: '#cccccc',
   },
-  background: {
-    default: '#FFFFFF',
-    paper: '#CCCCCC',
-  },
   common: {
     black: '#000000',
     white: '#FFFFFF',
+  },
+  text: {
+    primary: '#212529',
+    secondary: '#6C757D',
   },
   banners: {
     banner1: '#EE6471',

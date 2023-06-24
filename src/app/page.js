@@ -1,16 +1,13 @@
-import { getCategories } from '@/features/category'
-import {
-  BannerBlock,
-  CategoryBlock,
-  Facilidades,
-  Newsletter,
-  Produtos,
-} from '@/features/home'
-import { Loading } from '@/features/ui'
 import { Suspense } from 'react'
+
+import { Loading } from '@/features/ui'
+import { BannerBlock, Facilidades, Newsletter } from '@/features/home'
+import { CategoryList, getCategories } from '@/features/category'
+import { ProductList, getProducts } from '@/features/product'
 
 export default async function Home() {
   const categories = await getCategories()
+  const products = await getProducts()
 
   return (
     <div>
@@ -18,9 +15,11 @@ export default async function Home() {
         <BannerBlock />
       </Suspense>
       <Suspense fallback={<Loading />}>
-        <CategoryBlock categories={categories} />
+        <CategoryList categories={categories} />
       </Suspense>
-      <Produtos />
+      <Suspense fallback={<Loading />}>
+        <ProductList products={products} />
+      </Suspense>
       <Facilidades />
       <Newsletter />
     </div>

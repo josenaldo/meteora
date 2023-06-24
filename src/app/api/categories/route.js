@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server'
 import images from '@/data/images.json'
 
-const categorias = [
+const categories = [
   {
     name: 'Camisetas',
     image: images['categorias/camisetas.png'],
@@ -29,6 +29,5 @@ const categorias = [
 ]
 
 export async function GET(request) {
-  // console.log('🔵 REQUESTING CATEGORIES', request)
-  return NextResponse.json(categorias)
+  return NextResponse.json(categories)
 }

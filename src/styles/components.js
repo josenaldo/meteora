@@ -1,6 +1,42 @@
 'use client'
 import { primaryColor } from './palette'
 const components = {
+  MuiTypography: {
+    styleOverrides: {
+      root: {
+        fontFamily: "'Inter', 'Helvetica', 'Arial', sans-serif",
+        display: 'block',
+      },
+    },
+    variants: [
+      {
+        props: { variant: 'productTitle' },
+        style: {
+          fontSize: '1rem',
+          fontWeight: '700',
+          display: 'block',
+          marginBottom: '1rem',
+        },
+      },
+      {
+        props: { variant: 'productDescription' },
+        style: {
+          fontSize: '13px',
+          display: 'block',
+        },
+      },
+      {
+        props: { variant: 'productPrice' },
+        style: {
+          fontSize: '1rem',
+          fontWeight: '700',
+          display: 'block',
+          marginTop: '1rem',
+          marginBottom: '10px',
+        },
+      },
+    ],
+  },
   MuiTextField: {
     styleOverrides: {
       root: {
