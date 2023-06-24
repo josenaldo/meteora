@@ -13,17 +13,13 @@ const mainFont = Inter({
   subsets: ['latin'],
 })
 
-export default function RootLayout({ children, banner, categories }) {
+export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <MeteoraThemeProvider>
         <body className={mainFont.className} id="__next">
           <Header />
-          <main className={styles.main}>
-            {banner}
-            {categories}
-            {children}
-          </main>
+          <main className={styles.main}>{children}</main>
           <Footer />
         </body>
       </MeteoraThemeProvider>

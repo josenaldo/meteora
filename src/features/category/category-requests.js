@@ -3,7 +3,6 @@ const baseurl = process.env.NEXT_PUBLIC_API_URL
 export default async function getCategories() {
   try {
     const url = `${baseurl}/categories`
-    // const url = '/api/categories'
 
     const response = await fetch(url)
 
