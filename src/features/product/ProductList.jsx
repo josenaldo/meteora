@@ -13,7 +13,7 @@ export default function ProductList({ products }) {
     <Container
       maxWidth="lg"
       sx={{
-        py: 9,
+        mt: 9,
       }}
     >
       <SectionTitle>Produtos que estão bombando!</SectionTitle>

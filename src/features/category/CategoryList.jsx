@@ -12,7 +12,7 @@ export default function CategoryList({ categories }) {
     <Container
       maxWidth="lg"
       sx={{
-        py: 9,
+        mt: 9,
       }}
     >
       <SectionTitle>Busque por Categoria</SectionTitle>

@@ -32,14 +32,11 @@ export default function FacilitiesBlock() {
       sx={{
         backgroundColor: 'common.black',
         color: 'common.white',
+        mt: 9,
+        py: 5,
       }}
     >
-      <Container
-        maxWidth="lg"
-        sx={{
-          py: 9,
-        }}
-      >
+      <Container maxWidth="lg">
         <SectionTitle color="common.white">Facilidades</SectionTitle>
 
         <Box
