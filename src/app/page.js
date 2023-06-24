@@ -1,7 +1,7 @@
 import { Suspense } from 'react'
 
 import { Loading } from '@/features/ui'
-import { BannerBlock, Facilidades, Newsletter } from '@/features/home'
+import { BannerBlock, FacilitiesBlock, Newsletter } from '@/features/home'
 import { CategoryList, getCategories } from '@/features/category'
 import { ProductList, getProducts } from '@/features/product'
 
@@ -11,16 +11,14 @@ export default async function Home() {
 
   return (
     <div>
-      <Suspense fallback={<Loading />}>
-        <BannerBlock />
-      </Suspense>
+      <BannerBlock />
       <Suspense fallback={<Loading />}>
         <CategoryList categories={categories} />
       </Suspense>
       <Suspense fallback={<Loading />}>
         <ProductList products={products} />
       </Suspense>
-      <Facilidades />
+      <FacilitiesBlock />
       <Newsletter />
     </div>
   )

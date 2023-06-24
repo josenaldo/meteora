@@ -35,6 +35,16 @@ const components = {
           marginBottom: '10px',
         },
       },
+      {
+        props: { variant: 'facilityTitle' },
+        style: {
+          fontSize: '1rem',
+          fontWeight: '700',
+          display: 'block',
+          marginBottom: '1rem',
+          color: 'primary.main',
+        },
+      },
     ],
   },
   MuiTextField: {
