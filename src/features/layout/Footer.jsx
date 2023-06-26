@@ -26,7 +26,7 @@ export default function Footer() {
           fontSize: '13px',
         }}
       >
-        2023 &copy; Desenvolvido por Josenaldo de Oliveira Matos Filho
+        2023 &copy; Desenvolvido por Josenaldo Matos
       </Typography>
       <Divider
         orientation="vertical"

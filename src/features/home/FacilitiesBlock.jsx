@@ -37,7 +37,9 @@ export default function FacilitiesBlock() {
       }}
     >
       <Container maxWidth="lg">
-        <SectionTitle color="common.white">Facilidades</SectionTitle>
+        <SectionTitle color="common.white">
+          Conheça todas as nossas facilidades
+        </SectionTitle>
 
         <Box
           sx={{
