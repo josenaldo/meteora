@@ -1,11 +1,12 @@
-import { useState } from 'react'
+import { useState, useRef } from 'react'
 
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft'
 import ChevronRightIcon from '@mui/icons-material/ChevronRight'
-import { Box, IconButton } from '@mui/material'
+import { Box, IconButton, Slide as MuiSlide } from '@mui/material'
 
 export default function Carousel({ children }) {
   const [index, setIndex] = useState(0)
+  const containerRef = useRef(null)
 
   const onArrowClick = (direction) => {
     const increment = direction === 'left' ? -1 : 1
@@ -15,16 +16,38 @@ export default function Carousel({ children }) {
 
     setIndex(newIndex)
   }
+
   return (
-    <div>
+    <Box>
       <h1>Carousel</h1>
       <h2>Index: {index}</h2>
       <Box>
         <Arrow direction="left" onClick={() => onArrowClick('left')} />
         <Arrow direction="right" onClick={() => onArrowClick('right')} />
       </Box>
-      {children[index]}
-    </div>
+      <Box ref={containerRef}>
+        <Box sx={{ width: '100%' }}>
+          {Array.isArray(children) ? (
+            children.map((child, i) => {
+              return (
+                <MuiSlide
+                  direction="left"
+                  key={`carousel-item${i}`}
+                  container={containerRef.current}
+                  in={index === i}
+                >
+                  <Box>{child}</Box>
+                </MuiSlide>
+              )
+            })
+          ) : (
+            <MuiSlide direction="up" container={containerRef.current} in={true}>
+              <Box>{children}</Box>
+            </MuiSlide>
+          )}
+        </Box>
+      </Box>
+    </Box>
   )
 }
 

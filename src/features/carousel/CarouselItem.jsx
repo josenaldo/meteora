@@ -1,6 +1,6 @@
 import { Box } from '@mui/material'
 
-export default function Slide({ children, title, backgroundColor }) {
+export default function CarouselItem({ title, backgroundColor, children }) {
   return (
     <Box
       sx={{
