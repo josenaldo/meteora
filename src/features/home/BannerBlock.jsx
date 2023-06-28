@@ -1,21 +1,61 @@
 'use client'
 
+import { Box } from '@mui/material'
+import HorizontalRuleIcon from '@mui/icons-material/HorizontalRule'
+import PlayArrowIcon from '@mui/icons-material/PlayArrow'
+
+import Carousel from 'react-material-ui-carousel'
+
 import { ResponsiveImage } from '@/features/responsive'
 import images from '@/data/images.json'
-import { Caroulsel, CarouselItem } from '@/features/carousel'
 
 export default function BannerBlock() {
   return (
-    <Caroulsel>
-      <CarouselItem title="Slide 1" backgroundColor="red">
+    <Box
+      sx={{
+        mt: '-3px',
+      }}
+    >
+      <Carousel
+        animation="slide"
+        NextIcon={<PlayArrowIcon />}
+        PrevIcon={
+          <PlayArrowIcon
+            sx={{
+              transform: 'scaleX(-1)',
+            }}
+          />
+        }
+        navButtonsAlwaysVisible
+        navButtonsProps={{
+          style: {
+            backgroundColor: 'transparent',
+          },
+        }}
+        IndicatorIcon={<HorizontalRuleIcon size="large" />}
+        indicatorContainerProps={{
+          style: {
+            position: 'relative',
+            top: '-50px',
+            zIndex: 100,
+          },
+        }}
+        activeIndicatorIconButtonProps={{
+          style: {
+            color: 'white',
+          },
+        }}
+        indicatorIconButtonProps={{
+          style: {
+            color: 'rgba(255, 255, 255, 0.5)',
+          },
+        }}
+        autoPlay={false}
+      >
         <ResponsiveImage images={images['banner-carousel-1.png']} fill />
-      </CarouselItem>
-      <CarouselItem title="Slide 2" backgroundColor="blue">
         <ResponsiveImage images={images['banner-carousel-2.png']} fill />
-      </CarouselItem>
-      <CarouselItem title="Slide 3" backgroundColor="green">
         <ResponsiveImage images={images['banner-carousel-3.png']} fill />
-      </CarouselItem>
-    </Caroulsel>
+      </Carousel>
+    </Box>
   )
 }

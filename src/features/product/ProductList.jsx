@@ -6,7 +6,6 @@ import { SectionTitle } from '@/features/ui'
 import { ProductCard } from '@/features/product'
 
 export default function ProductList({ products }) {
-  console.log(products)
   if (!products || products.error) return null
 
   return (

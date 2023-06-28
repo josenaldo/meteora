@@ -9,7 +9,6 @@ import { useDevice } from '@/features/responsive'
 import { Box } from '@mui/material'
 
 export default function ResponsiveImage({ images, fill = false }) {
-  console.log('ResponsiveImage', images)
   const device = useDevice()
 
   if (!device) {
